@@ -1,0 +1,138 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+backend/.pytest_cache/ # Specific to your backend test cache
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+# If your venv is specifically in the backend folder:
+# backend/.venv/
+# backend/env/
+# backend/venv/
+# backend/ENV/
+env.bak/
+venv.bak/
+
+# Flask/Django instance folders
+instance/
+backend/instance/ # If specific to backend
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Sass cache files
+.sass-cache/
+*.css.map
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# Atom
+.atom/
+# Other
+*.project
+*.classpath
+.c9/
+*.launch
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Log files
+logs/
+*.log
+npm-debug.log* # If running npm/yarn from root
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js - general (frontend/.gitignore handles frontend/node_modules and frontend/dist)
+# node_modules/ # Uncomment if you have a root node_modules
+# *.local # Uncomment if you have root .local files
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+# Thumbs.db
+# ehthumbs.db
+
+# If you have other specific build outputs or temporary directories at the root, add them here.
+# For example:
+# /deploy/
+# /output/

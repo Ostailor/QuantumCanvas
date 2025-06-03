@@ -1,0 +1,117 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.input-section textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-section button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.input-section button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
+  gap: 20px; /* Space between parsed and optimized sections */
+  margin-top: 20px;
+}
+
+.output-section {
+  margin-top: 0; /* Reset margin as results-container handles it */
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #333;
+  flex: 1; /* Allow sections to grow */
+  min-width: 300px; /* Minimum width before wrapping */
+}
+
+.output-section h2 {
+  margin-top: 0;
+}
+
+.output-section pre {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  white-space: pre-wrap; /* Allows text to wrap */
+  word-break: break-all; /* Breaks long words if necessary */
+  color: #333; /* Added: Darker text color for the preformatted text */
+}
+
+.error-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ffebee;
+  color: #c62828; /* This already has a contrasting color */
+  border: 1px solid #ef9a9a;
+  border-radius: 4px;
+}
+
+.circuit-details-view h3, .circuit-details-view h4 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.actions-bar {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.actions-bar button {
+   background-color: #28a745; /* Green for optimize/export */
+}
+.actions-bar button:hover:not(:disabled) {
+   background-color: #218838;
+}
+
+
+.export-section textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+  font-family: monospace;
+}
+
+.circuit-diagram-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  overflow-x: auto; /* Allow horizontal scrolling if diagram is wide */
+}
+
+.circuit-diagram-container h4 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
