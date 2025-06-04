@@ -33,3 +33,7 @@ class BenchmarkRequest(BaseModel):
 
 class QASMOutput(BaseModel):
     qasm_string: str = Field(..., description="OpenQASM 2.0 string representing the circuit.")
+
+class PennylaneScriptOutput(BaseModel):
+    script: str
+    message: Optional[str] = None

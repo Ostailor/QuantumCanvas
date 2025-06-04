@@ -1,4 +1,4 @@
-from ..models import CircuitJSON, GateModel
+from app.models import CircuitJSON, GateModel
 from typing import List
 
 def remove_self_inverse_pairs(circuit_json: CircuitJSON) -> CircuitJSON:
